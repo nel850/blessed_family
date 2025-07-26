@@ -12,7 +12,7 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-40 sm:pt-36 md:pt-24">
         {/* Background with animated gradients */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent"></div>
         <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-accent/20 to-highlight/30"></div>
@@ -74,7 +74,7 @@ export default function HomePage() {
               <div className="text-center group">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 group-hover:bg-white/20 transition-all duration-300">
                   <Users className="h-12 w-12 text-highlight mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">6:1 Ratio</h3>
+                  <h3 className="text-2xl font-bold mb-2">6:2 Ratio</h3>
                   <p className="text-white/80">Low resident-to-caregiver ratio ensures personalized attention</p>
                 </div>
               </div>

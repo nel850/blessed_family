@@ -76,12 +76,46 @@ export function Footer() {
           <div>
             <h5 className="text-xl font-bold mb-6 text-highlight">Our Services</h5>
             <ul className="space-y-3 text-white/80">
-              <li>Personal Care Assistance</li>
-              <li>Memory & Dementia Care</li>
-              <li>Medical Support</li>
-              <li>Nutritious Meal Programs</li>
-              <li>Daily Activities</li>
-              <li>End-of-Life Care</li>
+              <li>
+                <Link href="/services/personal-care" className="hover:text-highlight transition-colors">
+                  Personal Care Assistance
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/memory-care" className="hover:text-highlight transition-colors">
+                  Memory & Dementia Care
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/medication-management" className="hover:text-highlight transition-colors">
+                  Medication Management
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/meals" className="hover:text-highlight transition-colors">
+                  Nutritious Meal Programs
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/activities" className="hover:text-highlight transition-colors">
+                  Social Engagement & Activities
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/end-of-life-care" className="hover:text-highlight transition-colors">
+                  End-of-Life Care
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/housekeeping" className="hover:text-highlight transition-colors">
+                  Housekeeping & Laundry
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/transportation" className="hover:text-highlight transition-colors">
+                  Transportation Assistance
+                </Link>
+              </li>
             </ul>
           </div>
 
